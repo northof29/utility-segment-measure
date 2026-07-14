@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Utility Segment Measure
+qgisMinimumVersion=3.99
+description=Real-time previous segment, live segment, and running total measurements while digitizing in QGIS.
+version=1.0.0
+author=North of 29 LLC
+email=ereams@northof29.com
+
+about=Utility Segment Measure is a QGIS plugin designed for utility locating, construction takeoffs, and field layout planning. The plugin provides real-time measurement feedback while digitizing features by displaying the previous segment length, live segment length, and running total distance of the active sketch. Unlike traditional measurement tools, Utility Segment Measure automatically synchronizes with QGIS digitizing operations, including vertex additions, deletions, sketch completion, and cancellation. The tool was developed to help translate plan-sheet measurements and PDF-based takeoffs into practical field-reference distances for locating, excavation, and construction workflows.
+
+tracker=https://github.com/northof29/utility-segment-measure/issues
+repository=https://github.com/northof29/utility-segment-measure
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog=Initial public release. Real-time previous segment, live segment and running total measurements while digitizing features.
+
+# Tags are comma separated with spaces allowed
+tags=measurement,utility,construction,takeoff,digitizing,locating,distance,linelength,gis,qgis
+
+homepage=https://github.com/northof29/utility-segment-measure
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
